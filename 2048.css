@@ -1,0 +1,106 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.game_box
+{
+	width : 100%;
+	min-width: 360px;	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.header
+{
+	#background-color: grey;
+	width : 70%;
+	min-width: 360px;
+	display: flex;
+	justify-content: space-around;
+}
+.title_box
+{
+	width : 50%;
+	margin: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+.title_p
+{
+	text-align: center;
+	font-size: 60px;
+}
+.score_box
+{
+	background: linear-gradient(to bottom,hsl(90, 100%, 27%),hsl(90, 100%, 60%),hsl(90, 100%, 27%)); 
+	display: flex;
+	flex-direction: column;
+	margin : 10px;
+	width : 25%;
+	border-radius: 20px;
+}
+.score_title
+{
+	text-align: center;
+	margin:5px;
+	font-size: 25px;
+	color : white;
+}
+.score
+{
+	font-size: 20px;
+	color : white;
+	text-align: center;
+}
+.tile_box
+{
+	padding : 2px;
+	background-color: hsl(160,40%,50%);
+	display: flex;
+	width: 360px;
+	flex-wrap: wrap;
+	border-radius: 15px;	
+	border : 2px solid hsl(160,40%,40%);
+	justify-content: space-around;
+}
+.tile
+{
+	font-size: 32px;
+	background-color: hsl(0,10%,60%);
+	width : 23%;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	border : 2px solid hsl(360,10%,50%);
+	border-radius: 15px;
+}
+.two
+{
+	background: linear-gradient(to right,hsl(60, 100%, 27%),hsl(60, 100%, 67%),hsl(60, 100%, 27%));
+}
+.four
+{
+	background: linear-gradient(to right,hsl(15, 100%, 46%),hsl(15, 100%, 76%),hsl(15, 100%, 56%));
+}
+.eight
+{
+	background: linear-gradient(to right,hsl(4, 100%, 60%),hsl(4, 100%, 80%),hsl(4, 100%, 50%));
+}
+.sixteen
+{
+	background: linear-gradient(to right,hsl(4, 89%, 33%),hsl(4, 89%, 63%),hsl(4, 89%, 33%));
+}
+.thirty-two
+{
+	background: linear-gradient(to right,hsl(24, 100%, 57%),hsl(24, 100%, 75%),hsl(24, 100%, 57%));
+}
+.sixty-four
+{
+	background : linear-gradient(to right,hsl(10, 100%, 57%),hsl(10, 100%, 75%),hsl(10, 100%, 57%));
+}
+.large_tile
+{
+	background : linear-gradient(to right,hsl(25, 90%, 27%),hsl(25, 90%, 57%),hsl(25, 90%, 27%));
+}
